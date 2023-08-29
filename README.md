@@ -1,10 +1,17 @@
 # dp-project
- GD Covers Based on the Dick's Picks Style
+---
+- Original Version: August 10, 2022
+- Most Recent Version: September 29, 2022
+---
+#### Project Info:
+This project's goal is to create a cover for every circulating Grateful Dead show from 1965-1995
 
-In this folder is generated covers for almost every Grateful Dead show from 1966-1995. The covers were generated based on information from Relisten, this info was stored in .csv files. After which these files were loaded into Adobe Illustrator, which has a feature for bulk generating images based on a datafile. These covers are based on the original Dick's Picks covers (used from Volume 1 to 6). Which in turn were based on the packaging of old reel-to-reel tapes.
+The first version of the covers were generated based on information from [Relisten](https://relisten.net/). This involved manually copying show info for each year. Then followed by a cleanup of the data in order to get it into the required format for the following steps. Largely done using Regex and Notepad++ 'Find and Replace'.
+
+The second version of the covers were generated in the same way, except that the data this time is from [Jerrybase](https://jerrybase.com/). JB is much more accurate than Relisten, which had various errors ranging from incorrect venue info, spelling errors, or a combination of both. The only changes I made were abbreviating any venues that didn't fit on the cover, usually just abbreviating words or university names.
+
+These covers are based on the original Dick's Picks covers (used from Volume 1 to 6). Which in turn were based on the packaging of old reel-to-reel tapes.
 
 The covers were based on that but modified slightly. I moved the "Grateful Dead" text up to the box that used to say "Dick's Picks". Where the volume number was listed is now the year. The black box at the bottom was shunk, and now contains the full information on where the show happened (including Venue, City, and State. As well as the full date.)
 
 The original cover and concept is property of the Grateful Dead/Rhino Records. All properties mentioned belong to their respective owners.
-
-UPDATE 9/29/2022 - I redid all the covers with a better dataset. The first time I used data from Relisten, which turned out to have a ton of incorrect information. Ranging from incorrect venue info, spelling errors, or a combination of both. This time I used data from JerryBase, which is much more accurate and correct. The only changes I made were abbreviating any venues that didn't fit on the cover, usually just abbreviating words or university names. 
